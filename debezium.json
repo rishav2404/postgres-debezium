@@ -1,0 +1,14 @@
+{
+    "name": "rishavdb-connector",
+    "config": {
+        "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+        "plugin.name": "pgoutput",
+        "database.hostname": "postgres",
+        "database.port": "5432",
+        "database.user": "rishav",
+        "database.password": "rishav",
+        "database.dbname": "rishavdb",
+        "database.server.name": "postgres",
+        "table.include.list": "public.student"
+    }
+}
