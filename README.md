@@ -1,4 +1,5 @@
 # PostgreSQL Debezium CDC Setup
+<img width="1259" height="696" alt="image" src="https://github.com/user-attachments/assets/8942a431-394e-4563-8345-817fb949e3d6" />
 
 A complete Change Data Capture (CDC) solution using PostgreSQL, Debezium, Kafka, and Schema Registry. This setup captures real-time database changes and streams them to Kafka topics for downstream processing.
 
@@ -186,3 +187,7 @@ or
 ```bash
 podman system prune --all --volumes
 ```
+
+
+
+<img width="1651" height="442" alt="image" src="https://github.com/user-attachments/assets/365a7d58-b202-484c-8a9b-5668960fcd01" />
